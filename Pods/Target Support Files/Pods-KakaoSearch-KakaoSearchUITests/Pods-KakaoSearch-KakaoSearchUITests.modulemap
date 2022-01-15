@@ -1,0 +1,6 @@
+framework module Pods_KakaoSearch_KakaoSearchUITests {
+  umbrella header "Pods-KakaoSearch-KakaoSearchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
