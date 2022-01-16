@@ -31,9 +31,14 @@ class SearchViewController: UIViewController {
         tableView.bind(viewModel.searchTableViewModel)
         
         tableView.rx.modelSelected(SearchImageResult.self)
-            .subscribe(onNext: { _ in
+            .subscribe(onNext: { data in
                 let detailVC = DetailImageView()
+                let detailViewModel = DetailImageViewModel(searchImageResult: data)
+                detailVC.bind(detailViewModel)
+//                self.present(detailVC, animated: true, completion: nil)
                 self.navigationController?.pushViewController(detailVC, animated: true)
+                
+                
             })
             .disposed(by: disposeBag)
     }

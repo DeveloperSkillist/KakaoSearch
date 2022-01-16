@@ -8,6 +8,7 @@ target 'KakaoSearch' do
   # Pods for KakaoSearch
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxGesture'
   pod 'SnapKit'
   pod 'Kingfisher', '~> 7.0'
   pod 'SwiftLint'

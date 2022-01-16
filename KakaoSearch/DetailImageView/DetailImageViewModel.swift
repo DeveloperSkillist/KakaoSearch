@@ -12,13 +12,11 @@ import RxCocoa
 struct DetailImageViewModel {
     
     //view -> viewModel
-    let searchImageResult = PublishRelay<SearchImageResult>()
+    let searchImageResult: SearchImageResult
     
     //viewModel -> view
     
     init(searchImageResult: SearchImageResult) {
-//        self.searchImageResult = searchImageResult
-//
-//        let searchImageResult = self.searchImageResult
+        self.searchImageResult = searchImageResult
     }
 }

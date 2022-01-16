@@ -146,6 +146,7 @@
 				3649A8DC2792E318001BE682 /* Network */,
 				3649A8DA2792DB94001BE682 /* Model */,
 				3649A8CB2792C625001BE682 /* SearchView */,
+				3649A8E727931B05001BE682 /* DetailImageView */,
 				3649A89D2792BC74001BE682 /* Assets.xcassets */,
 				3649A89F2792BC74001BE682 /* LaunchScreen.storyboard */,
 				3649A8A22792BC74001BE682 /* Info.plist */,
@@ -177,8 +178,6 @@
 				3649A8C92792C574001BE682 /* SearchViewModel.swift */,
 				3649A8D12792D085001BE682 /* TableView */,
 				3649A8CC2792C645001BE682 /* SearchBar */,
-				3649A8E3279313A7001BE682 /* DetailImageView.swift */,
-				3649A8E52793144A001BE682 /* DetailImageViewModel.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
@@ -226,6 +225,15 @@
 				3649A8E12792E612001BE682 /* APIKeys.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		3649A8E727931B05001BE682 /* DetailImageView */ = {
+			isa = PBXGroup;
+			children = (
+				3649A8E3279313A7001BE682 /* DetailImageView.swift */,
+				3649A8E52793144A001BE682 /* DetailImageViewModel.swift */,
+			);
+			path = DetailImageView;
 			sourceTree = "<group>";
 		};
 		7ED83F4B124CC9EAE4D3EE9B /* Frameworks */ = {
